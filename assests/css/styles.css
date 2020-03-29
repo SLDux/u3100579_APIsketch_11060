@@ -54,33 +54,17 @@
 
 
 .dDay {
-/*
-    display: inline-block;
-    align-content: left;
-*/
     font-size: 1.4em; 
     font-weight: 600;
     color: #E5E8E8;
-/*
-    padding: 5px;
-    margin: 5px;
-*/
 }
 
 
 .dSum{
-/*
-    display: inline-block;
-    align-content: right;
-*/
     font-size: 1.2em; 
     font-weight: 400;
     font-style: italic;
     color: #E5E8E8;
-/*
-    padding: 5px;
-    margin: 5px;
-*/
     text-align: right;
     
 }
@@ -124,6 +108,7 @@
 
 h3 {
     margin: 30px;
+    display: flex;
     }
 
 .f {
@@ -132,7 +117,6 @@ h3 {
 
 .dDaily span {
     align-content: center;
-/*    text-align: left;*/
     vertical-align: text-top;
 }
 
