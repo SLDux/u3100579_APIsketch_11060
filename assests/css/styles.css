@@ -1,0 +1,126 @@
+.row {
+    visibility: hidden;
+}
+.row div {
+    visibility: visible;
+    border-radius: 25px;
+    margin: 5px;
+    min-width: 12px;
+    min-height: 15px;
+    height: auto;
+    width: auto;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.1em; 
+}
+
+.currentSummary {
+    visibility: visible;
+    border-radius: 25px;
+    min-width: 50%;
+    margin: 20px;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.4em; 
+    font-weight: 500;
+    font-style: italic;
+}
+
+.currentIcon {
+    font-style: italic;
+    text-align: center;
+    margin: 20px;
+}
+
+.daily {
+    border-radius: 25px;
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+
+.dDaily{
+    width: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    border: 1px solid #E5E8E8;
+    border-radius: 25px;
+    font-weight: 300;
+}
+
+
+.dDay {
+    display: inline-block;
+    align-content: left;
+    font-size: 1.4em; 
+    font-weight: 600;
+    color: #E5E8E8;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.dSum{
+    display: inline-block;
+    align-content: right;
+    font-size: 1.2em; 
+    font-weight: 400;
+    font-style: italic;
+    color: #E5E8E8;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.a {
+    width: 40%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+.b {
+    align-content: left;
+    width: 40%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.c {
+    align-content: right;
+    width: 40%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+.d {
+    width: 30%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    margin-top: 10px; 
+}
+
+.e {
+    width: 30%;
+    padding: 5px;
+    display: inline-block;
+    margin: 5px;
+    
+}
+
+h3 {
+    margin: 30px;
+    }
+
+
+.dDaily span {
+    align-content: center;
+    text-align: center;
+    vertical-align: text-top;
+}

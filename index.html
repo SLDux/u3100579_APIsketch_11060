@@ -1,0 +1,82 @@
+<!-- API Sketch -->
+<!-- HTML start -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    
+  <meta charset="utf-8">
+  <title>Whats the Weather?</title>
+  <meta name="author" content="U3100579">
+  <meta name="description" content="API Sketch">
+    
+
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS -->
+  <!-- I used the Skeleton Boilerplate Framework for basic styling -->
+  <link rel="stylesheet" href="assests/css/normalize.css">
+  <link rel="stylesheet" href="assests/css/skeleton.css">
+  <!-- My styles -->
+  <link rel="stylesheet" href="assests/css/styles.css">
+
+  <!-- This is an override I had to use for a favicon error in my browser -->
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+</head>
+<body>
+    
+     <!-- Content -->
+  
+
+        <!-- Including jQuery for coding. jQuery CDN 3 Minified  -->
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+        </script>
+        
+        <!-- Scripts -->
+        <script type="text/javascript" src="assests/scripts/scripts.js">
+        </script>
+      
+    
+
+   <!-- Html content -->
+        <!-- Include the div containers here so we can fill them with jQuery -->
+        <div class="container">    
+            <h2>What's the weather in <span class="Lsuburb"></span>, <span class="Lstate"></span>?</h2>
+
+            <!-- Current Shapshot -->
+            <div class="content">
+                <h3 class="currentDatetime">Now: <span></span></h3>
+                <h4 class="currentIcon">"<span></span>"</h4>
+            
+                <div class="now">
+                    
+                    <div class="currentSummary"><span></span></div>
+                    <div class="row">
+                        <div class="currentTemp one-third column">Temperature: <span></span>&deg;C</div>
+                        <div class="currentHumidity one-third column">Humidity: <span></span>%</div>
+                        <div class="currentPressure one-third column">Pressure: <span></span> mb</div>
+                    </div>
+                    <div class="row">
+                        <div class="currentWind one-third column">Wind Speed: <span></span> km/h</div>
+                        <div class="currentClouds one-third column">Cloud cover: <span></span>%</div>
+                        <div class="currentUV one-third column">UV Index: <span></span></div>
+                    </div>
+                </div>
+            
+                <!-- Daily Forecast -->
+                <h3>Later</h3>
+                <div class="daily"></div>
+            
+            </div>
+        </div>
+<!--  END -->    
+</body>
+</html>
