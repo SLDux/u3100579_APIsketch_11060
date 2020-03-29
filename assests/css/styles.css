@@ -119,6 +119,9 @@ h3 {
     margin: 30px;
     }
 
+.f {
+    text-align: right;
+}
 
 .dDaily span {
     align-content: center;
@@ -126,6 +129,3 @@ h3 {
     vertical-align: text-top;
 }
 
-.f {
-    text-align: right;
-}
