@@ -1,10 +1,11 @@
 .row {
     visibility: hidden;
+    display: flex;
 }
 .row div {
     visibility: visible;
     border-radius: 25px;
-    margin: 5px;
+    margin: auto;
     min-width: 12px;
     min-height: 15px;
     height: auto;
@@ -121,6 +122,10 @@ h3 {
 
 .dDaily span {
     align-content: center;
-    text-align: center;
+    text-align: left;
     vertical-align: text-top;
+}
+
+.f {
+    text-align: right;
 }

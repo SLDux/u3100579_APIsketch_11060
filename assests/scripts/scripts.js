@@ -196,7 +196,7 @@
                         var sunsetT = new Date(dailyFcast.sunsetTime *1000);
                         var down = sunsetT.toLocaleTimeString();
                         console.log(down);
-                        divRow.append('<span class ="b">Sunset: ' + down + '</span>');
+                        divRow.append('<span class ="b f">Sunset: ' + down + '</span>');
 
                         //Temperature high
                         console.log(dailyFcast.temperatureHigh);
@@ -216,7 +216,7 @@
                         var tempLow = new Date(dailyFcast.temperatureLowTime *1000); 
                         var lowT = tempLow.toLocaleTimeString(); 
                         console.log(lowT);
-                        divRow.append(' <span class ="c">Low Temperature: ' + dailyLow + '&deg;C at: ' + lowT + '</span>');
+                        divRow.append(' <span class ="c f">Low Temperature: ' + dailyLow + '&deg;C at: ' + lowT + '</span>');
                     
                         //Rain
                         //Round numbers
