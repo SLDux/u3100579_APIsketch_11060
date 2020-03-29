@@ -54,25 +54,33 @@
 
 
 .dDay {
+/*
     display: inline-block;
     align-content: left;
+*/
     font-size: 1.4em; 
     font-weight: 600;
     color: #E5E8E8;
+/*
     padding: 5px;
     margin: 5px;
+*/
 }
 
 
 .dSum{
+/*
     display: inline-block;
     align-content: right;
+*/
     font-size: 1.2em; 
     font-weight: 400;
     font-style: italic;
     color: #E5E8E8;
+/*
     padding: 5px;
     margin: 5px;
+*/
     text-align: right;
     
 }
@@ -85,7 +93,6 @@
 }
 
 .b {
-    align-content: left;
     width: 40%;
     padding: 5px;
     display: inline-block;
@@ -93,7 +100,6 @@
 }
 
 .c {
-    align-content: right;
     width: 40%;
     padding: 5px;
     display: inline-block;
@@ -126,7 +132,7 @@ h3 {
 
 .dDaily span {
     align-content: center;
-    text-align: left;
+/*    text-align: left;*/
     vertical-align: text-top;
 }
 
