@@ -276,7 +276,7 @@
                                     IconText = "All this rain is making me sad.";
                                     break;
                                 case "snow":
-                                    IconText = "It's snowing today, how drepressing.";
+                                    IconText = "It's snowing today, how depressing.";
                                     break;
                                 case "sleet":
                                     IconText = "Your weather can't make up its mind. You've got rain and snow.";
@@ -333,7 +333,7 @@
                                         IconText = "Fog is so annoying, I can hardly see.";
                                         break;
                                     case "cloudy":
-                                        IconText = "Clouds, clouds and more clouds. I'd say its cloudy.";
+                                        IconText = "Clouds, clouds and more clouds. I'd say it's cloudy.";
                                         break;
                                     case "partly-cloudy-day":
                                         IconText = "There are clouds in the sky. This annoys me.";
@@ -379,16 +379,16 @@
                                             IconText = "Cold and damp. You've got fog!";
                                             break;
                                         case "cloudy":
-                                            IconText = "Cloudy, but at least the sun wont get in your eyes!";
+                                            IconText = "Cloudy, but at least the sun won't get in your eyes!";
                                             break;
                                         case "partly-cloudy-day":
                                             IconText = "There are clouds in the sky. What shapes can you see?";
                                             break;
                                         case "partly-cloudy-night":
-                                            IconText = "There are still clouds up there, it's just harder to see them when its dark... keep trying.";
+                                            IconText = "There are still clouds up there, it's just harder to see them when it's dark... keep trying.";
                                             break;
                                         default:
-                                            IconText = "I don't know, but i'm sure it'll be wonderful!";
+                                            IconText = "I don't know, but I'm sure it'll be wonderful!";
 
                                 }
                                        //Display the suggestions on the html
